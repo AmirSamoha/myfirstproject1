@@ -1,0 +1,97 @@
+body{
+    background-color: rgba(189, 227, 229, 0.44);
+}
+
+h1{
+    background-color: rgba(189, 227, 229, 0.44);
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(107, 205, 240);
+}
+.prainfo{
+    font-size: 20px;
+}
+img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+
+.boxinfo{
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction:row;
+    background-color: beige;
+}
+
+.flex-container > div {
+    border: 1px solid black;
+    width: 250px;
+    height: 250;
+    margin: 25px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.flex-container > div:hover{
+    font-size: 30px;
+
+}
+
+.flex-container > div >img{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+.pikinfo{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(230, 199, 179);
+    width: 700px;
+    height: 550px;
+    font-size: 30px;
+    font-style: italic;
+}
+.circle{
+    display: inline-block;
+    /* display: flex; */
+    flex-direction: row;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Blue_question_mark.jpg/640px-Blue_question_mark.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 100%;
+    text-align: center;
+}
+.circle:hover{
+    color: rgb(14, 14, 16);
+    font-size: 30px;
+    width: 150px;
+    height: 150px;
+
+
+}
+.boxinfo2{
+    background-color: rgb(230, 199, 179);
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: first baseline;
+    width: 700px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
